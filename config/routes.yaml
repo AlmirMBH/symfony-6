@@ -1,5 +1,14 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+# controllers:
+#     resource:
+#         path: ../src/Controller/
+#         namespace: App\Controller
+#     type: attribute
+
+
+# config/routes.yaml
+dashboard:
+    path:       /dashboard
+    controller: App\Controller\DashboardController::index
+    methods:    GET|HEAD
+
+
